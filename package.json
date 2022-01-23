@@ -1,0 +1,15 @@
+{
+  "name": "nwdt-ol",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^2.7.13"
+  },
+  "dependencies": {
+    "ol": "latest"
+  }
+}
