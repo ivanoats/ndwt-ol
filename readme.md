@@ -1,4 +1,12 @@
-# OpenLayers + Vite
+# Northwest Discovery Water Trail Map
+
+## Proof of Concept
+
+This is a spike on using Open Layers to create a map of the Northwest Discovery Water Trail.
+
+## Technologies
+
+### OpenLayers + Vite
 
 This example demonstrates how the `ol` package can be used with [Vite](https://vitejs.dev/).
 
