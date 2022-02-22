@@ -60,7 +60,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          116.45002,
+          -116.45002,
           46.49144
         ]
       }
@@ -988,7 +988,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          116.72854,
+          -116.72854,
           46.49602
         ]
       }
@@ -1180,7 +1180,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          116.62625,
+          -116.62625,
           46.52504
         ]
       }
@@ -1564,7 +1564,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          117,
+          -117,
           46
         ]
       }
@@ -2364,7 +2364,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          116,
+          -116,
           46
         ]
       }
@@ -3996,7 +3996,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          116.98374,
+          -116.98374,
           46.43003
         ]
       }
@@ -4028,7 +4028,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          116.54964,
+          -116.54964,
           46.50653
         ]
       }
@@ -4092,7 +4092,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          116.75301,
+          -116.75301,
           46.47953
         ]
       }
@@ -4540,7 +4540,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          116.86049,
+          -116.86049,
           46.44683
         ]
       }
@@ -4572,7 +4572,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          116.84751,
+          -116.84751,
           46.44395
         ]
       }
@@ -4604,7 +4604,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          116.56336,
+          -116.56336,
           46.50956
         ]
       }
@@ -4988,7 +4988,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          116.37216,
+          -116.37216,
           46.49924
         ]
       }
