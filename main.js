@@ -2,6 +2,7 @@ import './style.css';
 import {Map, View } from 'ol';
 import VectorLayer from 'ol/layer/Vector';
 import VectorSource from 'ol/source/Vector';
+import {fromLonLat} from 'ol/proj';
 
 import {GeoJSON} from 'ol/format';
 
@@ -12,6 +13,9 @@ const source = new VectorSource({
   url: 'data//ndwt.geojson',
   format: new GeoJSON(),
 });
+
+const hoodRiver =  fromLonLat([45.7068,-121.5281]);
+console.log('hoodRiver', hoodRiver);
 
 
 const map = new Map({
@@ -25,7 +29,7 @@ const map = new Map({
     })
   ],
   view: new View({
-    center: [45.7068,-121.5281],
-    zoom: 5
+    center: fromLonLat([-121.5281, 45.7068]),
+    zoom: 7
   })
 });
