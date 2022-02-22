@@ -14,9 +14,7 @@ const source = new VectorSource({
   format: new GeoJSON(),
 });
 
-const hoodRiver =  fromLonLat([45.7068,-121.5281]);
-console.log('hoodRiver', hoodRiver);
-
+const hoodRiver =  fromLonLat([-121.5281, 45.7068]);
 
 const map = new Map({
   target: 'map',
@@ -29,7 +27,7 @@ const map = new Map({
     })
   ],
   view: new View({
-    center: fromLonLat([-121.5281, 45.7068]),
+    center: hoodRiver,
     zoom: 7
   })
 });
