@@ -1,33 +1,33 @@
-import './style.css';
-import {Map, View } from 'ol';
-import VectorLayer from 'ol/layer/Vector';
-import VectorSource from 'ol/source/Vector';
-import {fromLonLat} from 'ol/proj';
+import "./style.css"
+import { Map, View } from "ol"
+import VectorLayer from "ol/layer/Vector"
+import VectorSource from "ol/source/Vector"
+import { fromLonLat } from "ol/proj"
 
-import {GeoJSON} from 'ol/format';
+import { GeoJSON } from "ol/format"
 
-import TileLayer from 'ol/layer/Tile';
-import OSM from 'ol/source/OSM';
+import TileLayer from "ol/layer/Tile"
+import OSM from "ol/source/OSM"
 
 const source = new VectorSource({
-  url: 'data//ndwt.geojson',
+  url: "/data/ndwt.geojson",
   format: new GeoJSON(),
-});
+})
 
-const hoodRiver =  fromLonLat([-121.5281, 45.7068]);
+const hoodRiver = fromLonLat([-121.5281, 45.7068])
 
 const map = new Map({
-  target: 'map',
+  target: "map",
   layers: [
     new TileLayer({
-      source: new OSM()
+      source: new OSM(),
     }),
     new VectorLayer({
-      source: source
-    })
+      source: source,
+    }),
   ],
   view: new View({
     center: hoodRiver,
-    zoom: 7
-  })
-});
+    zoom: 7,
+  }),
+})
